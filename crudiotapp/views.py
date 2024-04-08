@@ -32,7 +32,7 @@ def enviar_correo_electronico(data):
     Mensaje: {data.get('mensaje')}
     Teléfono: {data.get('telefono')}
     '''
-    from_email = 'tucorreo@gmail.com'  # Cambia esto por tu dirección de correo electrónico
+    from_email = 'pao2604diaz@gmail.com'  # Cambia esto por tu dirección de correo electrónico
     to_email = ['claudiobarrios2510@gmail.com']  # Dirección de correo electrónico destino
 
     send_mail(subject, message, from_email, to_email)
