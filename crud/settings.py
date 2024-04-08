@@ -140,3 +140,12 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:4200",
     "https://alright-requirement.000webhostapp.com",
 ]
+# settings.py
+
+# Configuración para enviar correos electrónicos usando el servidor SMTP de Gmail
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587  # Puerto para TLS
+EMAIL_USE_TLS = True
+EMAIL_HOST_USER = 'paoidiaz2604@gmail.com'  # Tu dirección de correo electrónico de Gmail
+EMAIL_HOST_PASSWORD = 'wcjsubeeodalwhpk'  # La contraseña de tu cuenta de Gmail o una contraseña de aplicación si tienes la autenticación de dos factores habilitada
